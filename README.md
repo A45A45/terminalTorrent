@@ -1,14 +1,14 @@
 # terminalTorrent
 Minimal terminal based torrent client written in C++
 
-Requires libtorrent-rasterbar, ncurses, C++17
+Requires libtorrent-rasterbar, ncurses, C++20
 
 ## Installation 
 
 git clone https://github.com/A45A45/terminalTorrent
 
 
-g++ -std=c++17 terminalTorrent.cpp -o terminalTorrent -ltorrent-rasterbar -lncurses -lpthread
+g++ -std=c++20 terminalTorrent.cpp -ltorrent-rasterbar -lncurses -pthread -o terminalTorrent
 
 ## Usage
 
